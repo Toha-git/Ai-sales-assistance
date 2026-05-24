@@ -1,0 +1,13 @@
+{
+  "name": "omnifind-ai-sales-agent",
+  "version": "1.0.0",
+  "description": "A small AI sales assistant for OmniFind's kids plush backpack.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

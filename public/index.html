@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OmniFind AI Sales Agent</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="product-panel" aria-label="Product details">
+        <div class="brand-row">
+          <span class="brand-mark">O</span>
+          <span>OmniFind</span>
+        </div>
+
+        <div class="product-visual" aria-hidden="true">
+          <div class="backpack">
+            <div class="strap left"></div>
+            <div class="strap right"></div>
+            <div class="bag-body">
+              <div class="face">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="pocket"></div>
+            </div>
+          </div>
+        </div>
+
+        <h1>Kids Plush Backpack</h1>
+        <p class="subtitle">Ultra-soft toddler school bag for kids.</p>
+
+        <dl class="facts">
+          <div>
+            <dt>Price</dt>
+            <dd>৳699</dd>
+          </div>
+          <div>
+            <dt>Delivery</dt>
+            <dd>3-5 business days</dd>
+          </div>
+          <div>
+            <dt>Shipping</dt>
+            <dd>Inside Dhaka 80 tk · Outside 130 tk</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="chat-panel" aria-label="AI sales chat">
+        <header class="chat-header">
+          <div>
+            <p class="eyebrow">Jarvis</p>
+            <h2>AI Sales Assistant</h2>
+          </div>
+          <span id="modeBadge" class="mode-badge">Fallback</span>
+        </header>
+
+        <div id="messages" class="messages" aria-live="polite"></div>
+
+        <form id="chatForm" class="chat-form">
+          <input
+            id="messageInput"
+            type="text"
+            autocomplete="off"
+            placeholder="Type a customer message..."
+            aria-label="Customer message"
+          />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
